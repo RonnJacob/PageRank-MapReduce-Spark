@@ -1,0 +1,7 @@
+mvn clean package
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------------< cs6240:spark-demo >--------------------------
+[INFO] Building spark-demo 1.0
+[INFO] --------------------------------[ jar ]---------------------------------
+make: *** [jar] Error 130

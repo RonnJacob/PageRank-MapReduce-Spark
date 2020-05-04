@@ -1,0 +1,35 @@
+mvn clean package
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------------< cs6240:spark-demo >--------------------------
+[INFO] Building spark-demo 1.0
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from central: https://repo.maven.apache.org/maven2/commons-codec/commons-codec/maven-metadata.xml
+Downloading from sonatype-nexus-snapshots: https://oss.sonatype.org/content/repositories/snapshots/commons-codec/commons-codec/maven-metadata.xml
+Downloading from apache.snapshots: https://repository.apache.org/snapshots/commons-codec/commons-codec/maven-metadata.xml
+Progress (1): 732 BProgress (2): 732 B | 320 B                           Downloaded from central: https://repo.maven.apache.org/maven2/commons-codec/commons-codec/maven-metadata.xml (732 B at 934 B/s)
+Downloaded from apache.snapshots: https://repository.apache.org/snapshots/commons-codec/commons-codec/maven-metadata.xml (320 B at 360 B/s)
+Downloading from sonatype-nexus-snapshots: https://oss.sonatype.org/content/repositories/snapshots/commons-codec/commons-codec/1.15-SNAPSHOT/maven-metadata.xml
+Downloading from apache.snapshots: https://repository.apache.org/snapshots/commons-codec/commons-codec/1.15-SNAPSHOT/maven-metadata.xml
+Progress (1): 1.4 kB                    Downloaded from apache.snapshots: https://repository.apache.org/snapshots/commons-codec/commons-codec/1.15-SNAPSHOT/maven-metadata.xml (1.4 kB at 5.2 kB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ spark-demo ---
+[INFO] Deleting /Users/ronn/Desktop/Homework3/Ronn_Jacob_HW3/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spark-demo ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spark-demo ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- scala-maven-plugin:3.3.1:compile (default) @ spark-demo ---
+[INFO] artifact commons-codec:commons-codec: checking for updates from central
+[WARNING]  Expected all dependencies to require Scala version: 2.11.8
+[WARNING]  cs6240:spark-demo:1.0 requires scala version: 2.11.8
+[WARNING]  com.twitter:chill_2.11:0.8.4 requires scala version: 2.11.8
+[WARNING]  org.apache.spark:spark-core_2.11:2.3.1 requires scala version: 2.11.8
+[WARNING]  org.json4s:json4s-jackson_2.11:3.2.11 requires scala version: 2.11.0
+[WARNING] Multiple versions of scala libraries detected!
+[INFO] /Users/ronn/Desktop/Homework3/Ronn_Jacob_HW3/src/main/scala:-1: info: compiling
+[INFO] Compiling 1 source files to /Users/ronn/Desktop/Homework3/Ronn_Jacob_HW3/target/classes at 1585283693147
